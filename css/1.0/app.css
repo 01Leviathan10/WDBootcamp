@@ -1,0 +1,27 @@
+h1{
+    color:rgb(133, 77, 255);
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 8px dashed rgba(0, 200, 100, 0.4);
+}
+li{
+    color:rgba(0, 200, 100, 0.4);
+}
+
+h4{
+    color:#7f66cc;
+    background-color: rgb(30, 0, 100)
+}
+
+h6{
+    color: rgba(red, green, blue, alpha)
+}
+
+body{
+    background: pink;
+    /* background: url(https://gadgetflowcdn.com/wp-content/themes/thegadgetflow4/images/categories/random_large/all_things_wood.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover; */
+}
+

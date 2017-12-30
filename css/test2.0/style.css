@@ -1,0 +1,43 @@
+body{  
+    border: 20px solid rgb(185, 183, 183);
+    padding: 3%;
+    max-width: 80%;
+    margin: 20px auto;
+    font-family: Source Sans Pro;
+    -webkit-box-shadow: 14px 17px 28px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 17px 28px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 17px 28px 0px rgba(0,0,0,0.75);
+}
+
+h2{
+    color: rgb(9, 9, 61);
+    font-size: 2.0rem;
+
+}
+
+h3{
+    color: rgb(97, 171, 214);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    
+}
+
+p:nth-of-type(1) {
+    border-left: 5px solid rgb(185, 183, 183);
+    padding: 1%;
+}
+
+p:nth-of-type(4) {
+    border-left: 5px solid rgb(185, 183, 183);
+    padding: 1%;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+
+.post{
+    margin-bottom: 20px;
+}
