@@ -4,13 +4,14 @@ var seacretNumber = 4;
 
 //ask user for guess
 
-var guess = prompt("Guess a number");
-
+var stringGuess = prompt("Guess a number");
+var guess = Number(stringGuess);
 //check guess
 
-if (guess == seacretNumber) {
+if (guess === seacretNumber) {
     alert("You guesst it!!");
-}
-else{
-    alert("You are wrong!");
+} else if (guess < seacretNumber) {
+    alert("You are to low!");
+} else {
+    alert("You are to high!");
 }
